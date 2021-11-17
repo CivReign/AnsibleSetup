@@ -22,5 +22,6 @@ java -server \
  -Xlog:gc*:logs/gc.log:time,uptime:filecount=5,filesize=1M \
  -Dusing.aikars.flags=https://mcflags.emc.gs \
  -Daikars.new.flags=true -jar \
+ --illegal-access=permit \
  -Xmx{{ shard_mem }} -Xms{{ shard_mem }} \
  -jar {{ server_jar }}.jar nogui
