@@ -1,10 +1,10 @@
 # AnsibleSetup
-Civclassic 1.16.1 Ansible setup
+CivReign 1.16.5 Ansible setup
 
 
 ## How to deploy:
 
-First of all note that Ansible does not support Windows, you will need a UNIX based operating system. Civclassics uses Debian/Ubuntu and all instructions in the following will be based on that. Note that the Windows Subsystem for Linux is NOT a UNIX based operating system, do not report issues when trying to run this setup on it and install a proper OS.
+First of all note that Ansible does not support Windows, you will need a UNIX based operating system. CivReign uses Debian/Ubuntu and all instructions in the following will be based on that. Note that the Windows Subsystem for Linux is NOT a UNIX based operating system, do not report issues when trying to run this setup on it and install a proper OS.
 
 
 - Install Java (minimum 8)
@@ -39,7 +39,7 @@ You may use a different user name, if you do so you will need to adjust the user
 
 - Clone this repo
 ```
-git clone --depth 1 https://github.com/CivClassic/AnsibleSetup.git
+git clone --depth 1 https://github.com/CivReign/AnsibleSetup.git
 cd AnsibleSetup
 ```
 
@@ -57,7 +57,7 @@ mysql_host: localhost
 #Name of the mysql user to use, will be automatically created
 mysql_user: '{{ servername }}'
 #Name of the database to use
-mysql_db_name: 'civclassic'
+mysql_db_name: 'civreign'
 #Port mysql is using, 3306 by default
 mysql_port: 3306
 #Seeds used for HiddenOre noise generation
@@ -91,7 +91,7 @@ This script requires sudo for the initial database setup. You only need to run i
 
 ---
 
-For reference, Civclassic has the following cronjobs setup for the user `mc`:
+For reference, CivReign has the following cronjobs setup for the user `mc`:
 
 ```
 44 7 * * * mv /home/mc/restart.log.txt /home/mc/restart.old.log.txt

@@ -2,7 +2,7 @@
 username: "mc"
 
 #Name of the server, folder the servers data is in will be /home/username/name
-servername: "civclassic"
+servername: "civreign"
 
 #Relative name of the folder the actual MC server is in
 server_folder: "server"
