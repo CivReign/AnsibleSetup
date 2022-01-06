@@ -78,6 +78,7 @@ plugins:
  - RandomSpawn
  - RealisticBiomes
  - SimpleAdminHacks
+ - Smeltery
  - Spark
  - SuperVanish
  - Vault
