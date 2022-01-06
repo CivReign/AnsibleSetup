@@ -72,6 +72,7 @@ plugins:
  - LuckPerms
  - NameColors
  - NameLayer
+ - NBTAPI # https://www.spigotmc.org/resources/nbt-api.7939/
  - Orebfuscator
  - ProtocolLib
  - RailSwitch
