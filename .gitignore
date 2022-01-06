@@ -2,3 +2,6 @@
 variables/passwords.yml
 templates/private/*
 jarfiles/private/*
+
+# Copyrighted stuff that MUST be excluded
+jarfiles/plugins/Smeltery.jar
