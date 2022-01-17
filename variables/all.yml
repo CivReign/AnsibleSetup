@@ -70,6 +70,7 @@ plugins:
  - JukeAlert
  - KiraBukkitGateway
  - LuckPerms
+ - Multiverse-Core
  - NameColors
  - NameLayer
  - NBTAPI # https://www.spigotmc.org/resources/nbt-api.7939/
